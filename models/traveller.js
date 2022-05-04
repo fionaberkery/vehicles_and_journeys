@@ -10,9 +10,6 @@ Traveller.prototype.getJourneyStartLocations = function() {
   return startLocations
 };
 
-
-
-
 Traveller.prototype.getJourneyEndLocations = function () {
   const endLocations = []
   this.journeys.forEach((journey) => {
@@ -41,7 +38,6 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
   }, 0)
   return totalDistance
 };
-
 
 Traveller.prototype.getUniqueModesOfTransport = function () {
   const result = []
